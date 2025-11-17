@@ -19,7 +19,7 @@ sudo apt-get install ros-noetic-controller-interface  ros-noetic-gazebo-ros-cont
 # Build
 
 ```bash
-git clone https://github.com/llxyq/ackermann_ego_planner.git
+git clone https://github.com/EzioPeter/ackermann_ego_planner.git
 cd ackermann_ego_planner
 rosdep install --from-paths src --ignore-src -r -y
 catkin_make -DCMAKE_BUILD_TYPE=Release
@@ -54,4 +54,5 @@ roslaunch ego_planner run_in_sim.launch 2>/dev/null
 
 -  [EGO-Planner](https://github.com/ZJU-FAST-Lab/ego-planner) 
 - [ackermann_vehicle](https://github.com/hdh7485/ackermann_vehicle)
+- [ackermann_ego_planner](https://github.com/llxyq/ackermann_ego_planner)
 
